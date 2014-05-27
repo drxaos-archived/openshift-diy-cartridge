@@ -13,6 +13,6 @@ mkdir -p ${OPENSHIFT_DIY_DIR}user
 
 chown `id -u $OPENSHIFT_GEAR_UUID`.`id -u $OPENSHIFT_GEAR_UUID` -R "$OPENSHIFT_HOMEDIR"/user
 
-chown `id -u $OPENSHIFT_GEAR_UUID`.`id -u $OPENSHIFT_GEAR_UUID` -R "$OPENSHIFT_HOMEDIR"
+#chown `id -u $OPENSHIFT_GEAR_UUID`.`id -u $OPENSHIFT_GEAR_UUID` -R "$OPENSHIFT_HOMEDIR"
 
 client_result "Disclaimer: This is an experimental cartridge that provides a way to try unsupported languages, frameworks, and middleware on OpenShift."
